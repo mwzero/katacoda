@@ -1,26 +1,30 @@
-# A brief introduction
+# What is Docker?
 
-Docker is an open platform tool to make it easier to create, deploy and to execute the applications by using containers. 
+Docker allows you to deploy and run your application in an isolated environment separate from the infrastructure; in this way the execution environment will be the same whether your application is deployed to the customer, in the cloud or wherever you want.
 
-Containers allow us to separate the applications from the infrastructure so we can deploy application/software faster.
+The isolated environment is called a "container" and is like a lightweight virtual machine because the container can be created using only application dependencies without installing the entire operating system.
 
-We can manage our infrastructure in the same ways as we manage our applications. The Docker is like a virtual machine but creating a new whole virtual machine; it allows us to use the same Linux kernel.
+Containers running on a host use the same machine kernel.
 
-The advantage of Docker platform is to ship, test, and deploy code quicker so that we can effectively reduce the time between writing code and execute it in production.
+Docker is the toolkit developed by www.docker.com to create, distribute and run the cointainer;
 
-And the main important thing about Docker is that it’s open source i.e. anyone can use it and can contribute to docker to make it easier and more features in it which aren’t available in it.
+Docker containers are distributed using a binary format called "Images".
 
-Docker Platform
-The advantage of docker is to build the package and run the application in sandbox environment said container.
+Containers in the target environment are run from images.
 
-The docker container system utilizes the operating system virtualization to utilize and combine the components of an application system which support every standard Linux machine.
+## Which advantes?
 
-The isolation and security factors allow us to execute many containers parallel on a given system.
+The installation is faster and safe because the software is distribuited via containers whicj already contain all the dependencies.
 
-Containers are lightweight in size because they don’t need the extra resource of a HyperV or VMware, but run directly within the machine kernel. We can even run Docker containers within machines that are actually virtual/hyper machines.
+The isolation allow us to execute many containers parallel on a given system.
 
-# Core Components Of Docker
-The Core of the Docker is consists of Docker Engine, Docker Containers, Docker images, Docker Client, Docker daemon etc. Let discuss the components of the Docker.
+# Core Components 
+
+Docker is composed by 
+     Docker Engine, 
+     Docker Containers, 
+     Docker images, 
+     Docker Client, Docker daemon etc. Let discuss the components of the Docker.
 
 ## Docker Engine
 The Docker engine is a part of Docker which create and run the Docker containers. The docker container is a live running instance of a docker image. Docker Engine is a client-server based application with following components 
