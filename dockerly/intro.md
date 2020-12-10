@@ -20,7 +20,7 @@ The main components of Docker are:
 - Docker Engine 
 - Images and containers
 
-## Docker Engine
+# Docker Engine
 
 Docker Engine is a client-server based application responsible for creating and running containers.
 
@@ -32,18 +32,18 @@ Docker Engine is composed of a daemon process to control and manage containers a
 
 Docker CLI is the tool used in this short course to interact with Docker.
 
-## Images and containers
+# Images and containers
 A Docker image is a read-only model that contains a set of instructions for creating a container that can run on the Docker platform.
 
 Docker CLI allows you to create, run, stop or delete a container.
 
 Mostly, an image is based on another image, with some additional customization in the image but it is possible to build our own image.
 
-### Dockerfile
+## Dockerfile
 The Dockerfile contains the commands to create the image. Each statement in a Dockerfile creates a new layer in the image.
 If we modify the Dockerfile, only the layers that have been modified are rebuilt.
 
-### Docker Registry
+## Docker Registry
 Images are distributed using a private or public registry called
 "Docker Registry".
 The images are "pushed" to be stored in the registry and "extracted" to be available to the customer.
